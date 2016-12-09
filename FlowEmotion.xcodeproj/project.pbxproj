@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A29DBF7A1DFAC16B0086BE2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29DBF791DFAC16B0086BE2B /* AppDelegate.swift */; };
+		A29DBF7C1DFAC16B0086BE2B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29DBF7B1DFAC16B0086BE2B /* ViewController.swift */; };
+		A29DBF7F1DFAC16B0086BE2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A29DBF7D1DFAC16B0086BE2B /* Main.storyboard */; };
+		A29DBF811DFAC16B0086BE2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A29DBF801DFAC16B0086BE2B /* Assets.xcassets */; };
+		A29DBF841DFAC16B0086BE2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A29DBF821DFAC16B0086BE2B /* LaunchScreen.storyboard */; };
+		A29DBF8F1DFAC16B0086BE2B /* FlowEmotionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29DBF8E1DFAC16B0086BE2B /* FlowEmotionTests.swift */; };
+		A29DBF9A1DFAC16B0086BE2B /* FlowEmotionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29DBF991DFAC16B0086BE2B /* FlowEmotionUITests.swift */; };
+		A29DBFA81DFAC19D0086BE2B /* FlowUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29DBFA71DFAC19D0086BE2B /* FlowUtils.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A29DBF8B1DFAC16B0086BE2B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A29DBF6E1DFAC16B0086BE2B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A29DBF751DFAC16B0086BE2B;
+			remoteInfo = FlowEmotion;
+		};
+		A29DBF961DFAC16B0086BE2B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A29DBF6E1DFAC16B0086BE2B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A29DBF751DFAC16B0086BE2B;
+			remoteInfo = FlowEmotion;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A29DBF761DFAC16B0086BE2B /* FlowEmotion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlowEmotion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A29DBF791DFAC16B0086BE2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A29DBF7B1DFAC16B0086BE2B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A29DBF7E1DFAC16B0086BE2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A29DBF801DFAC16B0086BE2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A29DBF831DFAC16B0086BE2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A29DBF851DFAC16B0086BE2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A29DBF8A1DFAC16B0086BE2B /* FlowEmotionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlowEmotionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A29DBF8E1DFAC16B0086BE2B /* FlowEmotionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowEmotionTests.swift; sourceTree = "<group>"; };
+		A29DBF901DFAC16B0086BE2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A29DBF951DFAC16B0086BE2B /* FlowEmotionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlowEmotionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A29DBF991DFAC16B0086BE2B /* FlowEmotionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowEmotionUITests.swift; sourceTree = "<group>"; };
+		A29DBF9B1DFAC16B0086BE2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A29DBFA71DFAC19D0086BE2B /* FlowUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlowUtils.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A29DBF731DFAC16B0086BE2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A29DBF871DFAC16B0086BE2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A29DBF921DFAC16B0086BE2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A29DBF6D1DFAC16B0086BE2B = {
+			isa = PBXGroup;
+			children = (
+				A29DBF781DFAC16B0086BE2B /* FlowEmotion */,
+				A29DBF8D1DFAC16B0086BE2B /* FlowEmotionTests */,
+				A29DBF981DFAC16B0086BE2B /* FlowEmotionUITests */,
+				A29DBF771DFAC16B0086BE2B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A29DBF771DFAC16B0086BE2B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A29DBF761DFAC16B0086BE2B /* FlowEmotion.app */,
+				A29DBF8A1DFAC16B0086BE2B /* FlowEmotionTests.xctest */,
+				A29DBF951DFAC16B0086BE2B /* FlowEmotionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A29DBF781DFAC16B0086BE2B /* FlowEmotion */ = {
+			isa = PBXGroup;
+			children = (
+				A29DBF791DFAC16B0086BE2B /* AppDelegate.swift */,
+				A29DBF7B1DFAC16B0086BE2B /* ViewController.swift */,
+				A29DBFA71DFAC19D0086BE2B /* FlowUtils.swift */,
+				A29DBF7D1DFAC16B0086BE2B /* Main.storyboard */,
+				A29DBF801DFAC16B0086BE2B /* Assets.xcassets */,
+				A29DBF821DFAC16B0086BE2B /* LaunchScreen.storyboard */,
+				A29DBF851DFAC16B0086BE2B /* Info.plist */,
+			);
+			path = FlowEmotion;
+			sourceTree = "<group>";
+		};
+		A29DBF8D1DFAC16B0086BE2B /* FlowEmotionTests */ = {
+			isa = PBXGroup;
+			children = (
+				A29DBF8E1DFAC16B0086BE2B /* FlowEmotionTests.swift */,
+				A29DBF901DFAC16B0086BE2B /* Info.plist */,
+			);
+			path = FlowEmotionTests;
+			sourceTree = "<group>";
+		};
+		A29DBF981DFAC16B0086BE2B /* FlowEmotionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A29DBF991DFAC16B0086BE2B /* FlowEmotionUITests.swift */,
+				A29DBF9B1DFAC16B0086BE2B /* Info.plist */,
+			);
+			path = FlowEmotionUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A29DBF751DFAC16B0086BE2B /* FlowEmotion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A29DBF9E1DFAC16B0086BE2B /* Build configuration list for PBXNativeTarget "FlowEmotion" */;
+			buildPhases = (
+				A29DBF721DFAC16B0086BE2B /* Sources */,
+				A29DBF731DFAC16B0086BE2B /* Frameworks */,
+				A29DBF741DFAC16B0086BE2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlowEmotion;
+			productName = FlowEmotion;
+			productReference = A29DBF761DFAC16B0086BE2B /* FlowEmotion.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A29DBF891DFAC16B0086BE2B /* FlowEmotionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A29DBFA11DFAC16B0086BE2B /* Build configuration list for PBXNativeTarget "FlowEmotionTests" */;
+			buildPhases = (
+				A29DBF861DFAC16B0086BE2B /* Sources */,
+				A29DBF871DFAC16B0086BE2B /* Frameworks */,
+				A29DBF881DFAC16B0086BE2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A29DBF8C1DFAC16B0086BE2B /* PBXTargetDependency */,
+			);
+			name = FlowEmotionTests;
+			productName = FlowEmotionTests;
+			productReference = A29DBF8A1DFAC16B0086BE2B /* FlowEmotionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A29DBF941DFAC16B0086BE2B /* FlowEmotionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A29DBFA41DFAC16B0086BE2B /* Build configuration list for PBXNativeTarget "FlowEmotionUITests" */;
+			buildPhases = (
+				A29DBF911DFAC16B0086BE2B /* Sources */,
+				A29DBF921DFAC16B0086BE2B /* Frameworks */,
+				A29DBF931DFAC16B0086BE2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A29DBF971DFAC16B0086BE2B /* PBXTargetDependency */,
+			);
+			name = FlowEmotionUITests;
+			productName = FlowEmotionUITests;
+			productReference = A29DBF951DFAC16B0086BE2B /* FlowEmotionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A29DBF6E1DFAC16B0086BE2B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = wind;
+				TargetAttributes = {
+					A29DBF751DFAC16B0086BE2B = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					A29DBF891DFAC16B0086BE2B = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A29DBF751DFAC16B0086BE2B;
+					};
+					A29DBF941DFAC16B0086BE2B = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A29DBF751DFAC16B0086BE2B;
+					};
+				};
+			};
+			buildConfigurationList = A29DBF711DFAC16B0086BE2B /* Build configuration list for PBXProject "FlowEmotion" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A29DBF6D1DFAC16B0086BE2B;
+			productRefGroup = A29DBF771DFAC16B0086BE2B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A29DBF751DFAC16B0086BE2B /* FlowEmotion */,
+				A29DBF891DFAC16B0086BE2B /* FlowEmotionTests */,
+				A29DBF941DFAC16B0086BE2B /* FlowEmotionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A29DBF741DFAC16B0086BE2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A29DBF841DFAC16B0086BE2B /* LaunchScreen.storyboard in Resources */,
+				A29DBF811DFAC16B0086BE2B /* Assets.xcassets in Resources */,
+				A29DBF7F1DFAC16B0086BE2B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A29DBF881DFAC16B0086BE2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A29DBF931DFAC16B0086BE2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A29DBF721DFAC16B0086BE2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A29DBF7C1DFAC16B0086BE2B /* ViewController.swift in Sources */,
+				A29DBF7A1DFAC16B0086BE2B /* AppDelegate.swift in Sources */,
+				A29DBFA81DFAC19D0086BE2B /* FlowUtils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A29DBF861DFAC16B0086BE2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A29DBF8F1DFAC16B0086BE2B /* FlowEmotionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A29DBF911DFAC16B0086BE2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A29DBF9A1DFAC16B0086BE2B /* FlowEmotionUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A29DBF8C1DFAC16B0086BE2B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A29DBF751DFAC16B0086BE2B /* FlowEmotion */;
+			targetProxy = A29DBF8B1DFAC16B0086BE2B /* PBXContainerItemProxy */;
+		};
+		A29DBF971DFAC16B0086BE2B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A29DBF751DFAC16B0086BE2B /* FlowEmotion */;
+			targetProxy = A29DBF961DFAC16B0086BE2B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A29DBF7D1DFAC16B0086BE2B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A29DBF7E1DFAC16B0086BE2B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A29DBF821DFAC16B0086BE2B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A29DBF831DFAC16B0086BE2B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A29DBF9C1DFAC16B0086BE2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A29DBF9D1DFAC16B0086BE2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A29DBF9F1DFAC16B0086BE2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FlowEmotion/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wind.FlowEmotion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A29DBFA01DFAC16B0086BE2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FlowEmotion/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wind.FlowEmotion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A29DBFA21DFAC16B0086BE2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FlowEmotionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wind.FlowEmotionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlowEmotion.app/FlowEmotion";
+			};
+			name = Debug;
+		};
+		A29DBFA31DFAC16B0086BE2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FlowEmotionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wind.FlowEmotionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlowEmotion.app/FlowEmotion";
+			};
+			name = Release;
+		};
+		A29DBFA51DFAC16B0086BE2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = FlowEmotionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wind.FlowEmotionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FlowEmotion;
+			};
+			name = Debug;
+		};
+		A29DBFA61DFAC16B0086BE2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = FlowEmotionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wind.FlowEmotionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FlowEmotion;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A29DBF711DFAC16B0086BE2B /* Build configuration list for PBXProject "FlowEmotion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A29DBF9C1DFAC16B0086BE2B /* Debug */,
+				A29DBF9D1DFAC16B0086BE2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A29DBF9E1DFAC16B0086BE2B /* Build configuration list for PBXNativeTarget "FlowEmotion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A29DBF9F1DFAC16B0086BE2B /* Debug */,
+				A29DBFA01DFAC16B0086BE2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A29DBFA11DFAC16B0086BE2B /* Build configuration list for PBXNativeTarget "FlowEmotionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A29DBFA21DFAC16B0086BE2B /* Debug */,
+				A29DBFA31DFAC16B0086BE2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A29DBFA41DFAC16B0086BE2B /* Build configuration list for PBXNativeTarget "FlowEmotionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A29DBFA51DFAC16B0086BE2B /* Debug */,
+				A29DBFA61DFAC16B0086BE2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A29DBF6E1DFAC16B0086BE2B /* Project object */;
+}
